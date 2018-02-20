@@ -1,7 +1,9 @@
+
 [global]
 location=Chile
-source_file_path=
+source_file_path=/Users/vigneshwaransundaresan/MetlifeHadoopFramework/Input
 email_address_list=
+Thershold_percentage=20
 
 [ABCD1234]
 entity_name=
@@ -17,14 +19,15 @@ file_has_header=
 schema_file_name=
 
 #Control checks flags
-qc_check_ind=
-identity_check_indicator=
-empty_file_check_indicator=
+qc_check_ind=Y
+identity_check_indicator=Y
+empty_file_check_indicator=si
+Thershold_check=1
+Thershold_percentage=10
 
 #Hive related details
-source_data_file_name=
-source_qc_file_name=
+source_data_file_name=movies_initial.csv.gz
+source_qc_file_name=movies_initial.qc
 hive_data_location=
 hive_table_location=
 hive_table_name=
-
