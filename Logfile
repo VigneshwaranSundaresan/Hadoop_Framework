@@ -1,23 +1,35 @@
-$ vi ABCD1234_2018-01-29_2018_01_31_15_17_05.log
 
-2018-01-31 15:17:05,077 - ABCD1234_HCF_GETPARM - INFO - Job : ABCD1234 started for date : 2018-01-29
-2018-01-31 15:17:05,078 - ABCD1234_HCF_GETPARM - INFO - Location is : Chile
-2018-01-31 15:17:05,079 - ABCD1234_HCF_GETPARM - INFO - Source File Path :
-2018-01-31 15:17:05,080 - ABCD1234_HCF_GETPARM - INFO - Email Address List :
-2018-01-31 15:17:05,081 - ABCD1234_HCF_GETPARM - INFO - Entity name :
-2018-01-31 15:17:05,083 - ABCD1234_HCF_GETPARM - INFO - Source System Type : HDFS Raw Location
-2018-01-31 15:17:05,084 - ABCD1234_HCF_GETPARM - INFO - Target System Type : HDFS Hive Staging
-2018-01-31 15:17:05,085 - ABCD1234_HCF_GETPARM - INFO - Job Description :
-2018-01-31 15:17:05,085 - ABCD1234_HCF_GETPARM - INFO - batch frequency : Daily
-2018-01-31 15:17:05,086 - ABCD1234_HCF_GETPARM - INFO - Source File Description :
-2018-01-31 15:17:05,087 - ABCD1234_HCF_GETPARM - INFO - Dev status flag :
-2018-01-31 15:17:05,088 - ABCD1234_HCF_GETPARM - INFO - Notification flag :
-2018-01-31 15:17:05,089 - ABCD1234_HCF_GETPARM - INFO - QC Check indicator :
-2018-01-31 15:17:05,090 - ABCD1234_HCF_GETPARM - INFO - Identity Check indicator :
-2018-01-31 15:17:05,091 - ABCD1234_HCF_GETPARM - INFO - Empty File check Indicator :
-2018-01-31 15:17:05,092 - ABCD1234_HCF_GETPARM - INFO - Source QC file name :
-2018-01-31 15:17:05,093 - ABCD1234_HCF_GETPARM - INFO - Source data file name :
-2018-01-31 15:17:05,093 - ABCD1234_HCF_GETPARM - INFO - Hive table name :
-2018-01-31 15:17:05,094 - ABCD1234_HCF_GETPARM - INFO - Hive data location :
-2018-01-31 15:17:05,094 - ABCD1234_HCF_GETPARM - INFO - Hive data location :
-2018-01-31 15:17:05,095 - ABCD1234_HCF_CREATE_SCHEMA - INFO - Schema creation started for Job : ABCD1234
+2018-02-16 00:15:35,061 - ABCD1234_HCF_GETPARM - INFO - Job : ABCD1234 started for date : 2018-01-29
+2018-02-16 00:15:35,062 - ABCD1234_HCF_GETPARM - INFO - Location is : Chile
+2018-02-16 00:15:35,063 - ABCD1234_HCF_GETPARM - INFO - Source File Path : /Users/vigneshwaransundaresan/MetlifeHadoopFramework/Input
+2018-02-16 00:15:35,063 - ABCD1234_HCF_GETPARM - INFO - Email Address List :
+2018-02-16 00:15:35,064 - ABCD1234_HCF_GETPARM - INFO - Entity name :
+2018-02-16 00:15:35,065 - ABCD1234_HCF_GETPARM - INFO - Source System Type : HDFS Raw Location
+2018-02-16 00:15:35,065 - ABCD1234_HCF_GETPARM - INFO - Target System Type : HDFS Hive Staging
+2018-02-16 00:15:35,066 - ABCD1234_HCF_GETPARM - INFO - Job Description :
+2018-02-16 00:15:35,066 - ABCD1234_HCF_GETPARM - INFO - batch frequency : Daily
+2018-02-16 00:15:35,067 - ABCD1234_HCF_GETPARM - INFO - Source File Description :
+2018-02-16 00:15:35,068 - ABCD1234_HCF_GETPARM - INFO - Dev status flag :
+2018-02-16 00:15:35,068 - ABCD1234_HCF_GETPARM - INFO - Notification flag :
+2018-02-16 00:15:35,069 - ABCD1234_HCF_GETPARM - INFO - File has header :
+2018-02-16 00:15:35,069 - ABCD1234_HCF_GETPARM - INFO - File has header :
+2018-02-16 00:15:35,070 - ABCD1234_HCF_GETPARM - INFO - QC Check indicator : Y
+2018-02-16 00:15:35,071 - ABCD1234_HCF_GETPARM - INFO - Identity Check indicator : Y
+2018-02-16 00:15:35,071 - ABCD1234_HCF_GETPARM - INFO - Empty File check Indicator : si
+2018-02-16 00:15:35,072 - ABCD1234_HCF_GETPARM - INFO - Thershold check Indicator : 1
+2018-02-16 00:15:35,073 - ABCD1234_HCF_GETPARM - INFO - Thershold Percentage : 10
+2018-02-16 00:15:35,073 - ABCD1234_HCF_GETPARM - INFO - Source QC file name : movies_initial.qc
+2018-02-16 00:15:35,074 - ABCD1234_HCF_GETPARM - INFO - Source data file name : movies_initial.csv.gz
+2018-02-16 00:15:35,074 - ABCD1234_HCF_GETPARM - INFO - Hive table name :
+2018-02-16 00:15:35,075 - ABCD1234_HCF_GETPARM - INFO - Hive data location :
+2018-02-16 00:15:35,076 - ABCD1234_HCF_GETPARM - INFO - Hive data location :
+2018-02-16 00:15:35,076 - ABCD1234_HCF_Quality_Checks_starts_here - INFO - Quality Checks started for Job : ABCD1234
+2018-02-16 00:15:35,076 - ABCD1234_Get_MD5_value - INFO - Get Md5 command is : md5 -q /Users/vigneshwaransundaresan/MetlifeHadoopFramework/Input/movies_initial.csv.gz
+2018-02-16 00:15:35,144 - ABCD1234_Get_MD5_value - INFO - MD5 Checksum value is 39c24405388e12b4d5a2affd7a1d612d
+2018-02-16 00:15:35,145 - ABCD1234_Get_Data_count - INFO - Get count command is : wc -l /Users/vigneshwaransundaresan/MetlifeHadoopFramework/Input/movies_initial.csv.gz | awk '{print $1}'
+2018-02-16 00:15:35,187 - ABCD1234_Get_Data_count - INFO - Data Count in Input file : movies_initial.csv.gz is 62707
+2018-02-16 00:15:35,188 - ABCD1234_Qc_File_Check - INFO - qc file name is : /Users/vigneshwaransundaresan/MetlifeHadoopFramework/Input/movies_initial.qc
+2018-02-16 00:15:35,188 - ABCD1234_Qc_File_Check - INFO - QC check completed.qc count : 62707 and data count is : 62707
+2018-02-16 00:15:35,188 - ABCD1234_Empty_File_Check - INFO - Empty file check completed.Data File not empty and count is : 62707$ vi ABCD1234_2018-01-29_2018_01_31_15_17_05.log
+
+
