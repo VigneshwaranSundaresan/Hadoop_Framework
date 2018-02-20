@@ -1,4 +1,3 @@
-
 [global]
 location=Chile
 source_file_path=/Users/vigneshwaransundaresan/MetlifeHadoopFramework/Input
@@ -26,6 +25,7 @@ Thershold_check=1
 Thershold_percentage=10
 
 #Hive related details
+temp_hive_table=
 source_data_file_name=movies_initial.csv.gz
 source_qc_file_name=movies_initial.qc
 hive_data_location=
